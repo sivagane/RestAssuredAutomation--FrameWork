@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="32" passed="28">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35286" started-at="2020-04-27T14:26:19Z" finished-at="2020-04-27T14:26:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35286" started-at="2020-04-27T14:26:19Z" finished-at="2020-04-27T14:26:54Z">
+      <class name="org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail@26be92ad]" name="setUp" is-config="true" duration-ms="15" started-at="2020-04-27T19:56:48Z" finished-at="2020-04-27T19:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteSingleEmployeeDetail()[pri:0, instance:org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail@26be92ad]" name="deleteSingleEmployeeDetail" is-config="true" duration-ms="5738" started-at="2020-04-27T19:56:48Z" finished-at="2020-04-27T19:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSingleEmployeeDetail -->
+        <test-method status="FAIL" signature="CheckResponseBody()[pri:0, instance:org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail@26be92ad]" name="CheckResponseBody" duration-ms="26" started-at="2020-04-27T19:56:54Z" finished-at="2020-04-27T19:56:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:304)
+	at org.testng.Assert.assertEquals(Assert.java:314)
+	at org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail.CheckResponseBody(TC005_Delete_DeleteSingleEmployeeDetail.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseBody -->
+        <test-method status="PASS" signature="CheckResponseTime()[pri:0, instance:org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail@26be92ad]" name="CheckResponseTime" duration-ms="15" started-at="2020-04-27T19:56:54Z" finished-at="2020-04-27T19:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResponseTime -->
+        <test-method status="PASS" signature="CheckStatusCode()[pri:0, instance:org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail@26be92ad]" name="CheckStatusCode" duration-ms="0" started-at="2020-04-27T19:56:54Z" finished-at="2020-04-27T19:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatusCode -->
+        <test-method status="PASS" signature="CheckStatusLine()[pri:0, instance:org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail@26be92ad]" name="CheckStatusLine" duration-ms="0" started-at="2020-04-27T19:56:54Z" finished-at="2020-04-27T19:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatusLine -->
+        <test-method status="FAIL" signature="checkContentType()[pri:0, instance:org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail@26be92ad]" name="checkContentType" duration-ms="16" started-at="2020-04-27T19:56:54Z" finished-at="2020-04-27T19:56:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [application/json;charset=utf-8] but found [application/json; charset=utf-8]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [application/json;charset=utf-8] but found [application/json; charset=utf-8]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail.checkContentType(TC005_Delete_DeleteSingleEmployeeDetail.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="FAIL" signature="checkServerType()[pri:0, instance:org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail@26be92ad]" name="checkServerType" duration-ms="0" started-at="2020-04-27T19:56:54Z" finished-at="2020-04-27T19:56:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [nginx/1.16.0] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [nginx/1.16.0] but found [null]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:129)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail.checkServerType(TC005_Delete_DeleteSingleEmployeeDetail.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+      </class> <!-- org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail -->
+      <class name="org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail">
+        <test-method status="PASS" signature="getSingleEmployee()[pri:0, instance:org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail@2b98378d]" name="getSingleEmployee" is-config="true" duration-ms="3124" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleEmployee -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail@2b98378d]" name="setUp" is-config="true" duration-ms="0" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail@2b98378d]" name="checkContentType" duration-ms="8" started-at="2020-04-27T19:56:35Z" finished-at="2020-04-27T19:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponeBody()[pri:0, instance:org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail@2b98378d]" name="checkResponeBody" duration-ms="16" started-at="2020-04-27T19:56:35Z" finished-at="2020-04-27T19:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponeBody -->
+        <test-method status="PASS" signature="checkResponsTime()[pri:0, instance:org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail@2b98378d]" name="checkResponsTime" duration-ms="0" started-at="2020-04-27T19:56:35Z" finished-at="2020-04-27T19:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponsTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail@2b98378d]" name="checkStatusCode" duration-ms="0" started-at="2020-04-27T19:56:35Z" finished-at="2020-04-27T19:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail@2b98378d]" name="checkStatusLine" duration-ms="0" started-at="2020-04-27T19:56:35Z" finished-at="2020-04-27T19:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail@2b98378d]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-27T19:56:35Z" finished-at="2020-04-27T19:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail -->
+      <class name="org.com.projectname.testcases.TC001_GetAllEmployeeDetails">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="setUp" is-config="true" duration-ms="82" started-at="2020-04-27T19:56:19Z" finished-at="2020-04-27T19:56:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="getAllEmployees" is-config="true" duration-ms="12468" started-at="2020-04-27T19:56:19Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="checkContentEncoding()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="checkContentEncoding" duration-ms="38" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method status="PASS" signature="checkCookies()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="checkCookies" duration-ms="16" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCookies -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="checkContentLength" duration-ms="0" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="checkResponseBody" duration-ms="93" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="checkResponseTime" duration-ms="16" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="checkServerType" duration-ms="0" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="checkStatusCode" duration-ms="0" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="checkStatusLine" duration-ms="0" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="tearDown" duration-ms="16" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="contentType()[pri:0, instance:org.com.projectname.testcases.TC001_GetAllEmployeeDetails@4b9e13df]" name="contentType" duration-ms="0" started-at="2020-04-27T19:56:32Z" finished-at="2020-04-27T19:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentType -->
+      </class> <!-- org.com.projectname.testcases.TC001_GetAllEmployeeDetails -->
+      <class name="org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail@1d057a39]" name="setUp" is-config="true" duration-ms="16" started-at="2020-04-27T19:56:41Z" finished-at="2020-04-27T19:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="putSingleEmployeeDetail()[pri:0, instance:org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail@1d057a39]" name="putSingleEmployeeDetail" is-config="true" duration-ms="7270" started-at="2020-04-27T19:56:41Z" finished-at="2020-04-27T19:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putSingleEmployeeDetail -->
+        <test-method status="PASS" signature="checkConnectionType()[pri:0, instance:org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail@1d057a39]" name="checkConnectionType" duration-ms="21" started-at="2020-04-27T19:56:48Z" finished-at="2020-04-27T19:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConnectionType -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail@1d057a39]" name="checkContentLength" duration-ms="0" started-at="2020-04-27T19:56:48Z" finished-at="2020-04-27T19:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkResponsTime()[pri:0, instance:org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail@1d057a39]" name="checkResponsTime" duration-ms="15" started-at="2020-04-27T19:56:48Z" finished-at="2020-04-27T19:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponsTime -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail@1d057a39]" name="checkContentType" duration-ms="0" started-at="2020-04-27T19:56:48Z" finished-at="2020-04-27T19:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail@1d057a39]" name="checkResponseBody" duration-ms="16" started-at="2020-04-27T19:56:48Z" finished-at="2020-04-27T19:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail@1d057a39]" name="checkStatusCode" duration-ms="16" started-at="2020-04-27T19:56:48Z" finished-at="2020-04-27T19:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail@1d057a39]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-27T19:56:48Z" finished-at="2020-04-27T19:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail -->
+      <class name="org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail">
+        <test-method status="PASS" signature="postSingleEmployee()[pri:0, instance:org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail@475530b9]" name="postSingleEmployee" is-config="true" duration-ms="5285" started-at="2020-04-27T19:56:35Z" finished-at="2020-04-27T19:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSingleEmployee -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail@475530b9]" name="setUp" is-config="true" duration-ms="0" started-at="2020-04-27T19:56:35Z" finished-at="2020-04-27T19:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail@475530b9]" name="checkContentLength" duration-ms="4" started-at="2020-04-27T19:56:41Z" finished-at="2020-04-27T19:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail@475530b9]" name="checkContentType" duration-ms="0" started-at="2020-04-27T19:56:41Z" finished-at="2020-04-27T19:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponsTime()[pri:0, instance:org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail@475530b9]" name="checkResponsTime" duration-ms="0" started-at="2020-04-27T19:56:41Z" finished-at="2020-04-27T19:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponsTime -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail@475530b9]" name="checkResponseBody" duration-ms="16" started-at="2020-04-27T19:56:41Z" finished-at="2020-04-27T19:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="FAIL" signature="checkStatusCode()[pri:0, instance:org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail@475530b9]" name="checkStatusCode" duration-ms="16" started-at="2020-04-27T19:56:41Z" finished-at="2020-04-27T19:56:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [201]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [201]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail.checkStatusCode(TC_003_Post_SingleEmployeeDetail.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail@475530b9]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-27T19:56:41Z" finished-at="2020-04-27T19:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

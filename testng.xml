@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+  <listener class-name="org.com.projectname.utilities.TestListeners"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.com.projectname.testcases.TC001_GetAllEmployeeDetails"/>
+      <class name="org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail"/>
+      <class name="org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail"/>
+      <class name="org.com.projectname.testcases.TC_003_Put_SingleEmployeeDetail"/>
+      <class name="org.com.projectname.testcases.TC005_Delete_DeleteSingleEmployeeDetail"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkStatusCode"/>
+          <include name="postSingleEmployee"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.com.projectname.testcases.TC_003_Post_SingleEmployeeDetail -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

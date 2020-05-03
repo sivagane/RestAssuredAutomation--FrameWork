@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 28.005 s <<< FAILURE! - in TestSuite
+checkStatusCode(org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail.checkStatusCode(TC_002_GetSingleEmployeeDetail.java:38)
+
+checkStatusLine(org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at org.com.projectname.testcases.TC_002_GetSingleEmployeeDetail.checkStatusLine(TC_002_GetSingleEmployeeDetail.java:57)
+
